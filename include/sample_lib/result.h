@@ -1,20 +1,11 @@
 #pragma once
 
 namespace sample_lib {
+
 enum class StatusCode {
   // clang-format off
-
   kScSuccess = 0, // Operation succedded successfully 
   kScError = 1, // An unspecified error occured
-  kScOutOfRange = 2,
-  kScInaccesibleMemoryRegion =4, 
-  kScIteratorExhausted = 5,
-  kScUnknownOpCode = 6,
-  kScUnknownRegister = 7,
-  kScUnpredictable = 8, // see Armv7-M Architecture Reference Manual Issue E.e p.818
-  kScUndefined = 9,
-  kScWriteNotAllowed = 10,
-
   // clang-format on
 };
 
@@ -25,30 +16,6 @@ static const char *StatusCodeToString(const StatusCode &status_code) {
   }
   case StatusCode::kScError: {
     return "Error";
-  }
-  case StatusCode::kScOutOfRange: {
-    return "OutOfRange";
-  }
-  case StatusCode::kScInaccesibleMemoryRegion: {
-    return "InaccesibleMemoryRegion";
-  }
-  case StatusCode::kScIteratorExhausted: {
-    return "IteratorExhausted";
-  }
-  case StatusCode::kScUnknownOpCode: {
-    return "UnknownOpCode";
-  }
-  case StatusCode::kScUnknownRegister: {
-    return "UnknownRegister";
-  }
-  case StatusCode::kScUnpredictable: {
-    return "Unpredictable";
-  }
-  case StatusCode::kScWriteNotAllowed: {
-    return "WriteNotAllowed";
-  }
-  case StatusCode::kScUndefined: {
-    return "Undefined";
   }
   }
   return "UnknownStatusCode";

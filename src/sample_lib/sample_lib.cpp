@@ -1,4 +1,5 @@
 #include "sample_lib/sample_lib.h"
+#include "sample_lib/internal/internal_class.h"
 
 #include <fmt/core.h>
 #include <iostream>
@@ -25,6 +26,8 @@ SampleLib::SampleLib() {
 SampleLib::~SampleLib(){};
 
 Result<void> SampleLib::Execute() {
+  internal::InternalClass ic;
+  ic.Execute();
   LogTest();
   return Ok();
 }
