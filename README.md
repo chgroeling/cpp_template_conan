@@ -1,2 +1,2 @@
-# sample_project
-Template for c++ conan project
+# Modern c++ template project.
+Dieses Repo ist mein Template für c++ Projekte. 

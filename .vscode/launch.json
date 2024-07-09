@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "sample_app",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/sample_app/sample_app",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+    }
+  ],
+  "version": "2.0.0"
+}
