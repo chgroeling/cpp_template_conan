@@ -10,10 +10,10 @@ It is good documentation because:
 3. Everything is documented (pretty easy since there's only one function)
 
 ### Some examples
-* Link to namespace: `::microemu`.
-* Link to class: `microemu::MicroEmu`.
-* Link to method: `microemu::MicroEmu::ReturnTrue`.
-* Link to method (short): [ReturnTrue](\ref microemu::MicroEmu::ReturnTrue).
+* Link to namespace: `::sample_lib`.
+* Link to class: `sample_lib::SampleLib`.
+* Link to method: `sample_lib::SampleLib::Execute`.
+* Link to method (short): [Execute](\ref sample_lib::SampleLib::Execute).
 * Defined link: [LinkPrintHello].
 
-[LinkPrintHello]: \ref sample_lib::SampleLib::PrintHello "PrintHello"
+[LinkPrintHello]: \ref sample_lib::SampleLib::Execute "PrintHello"
