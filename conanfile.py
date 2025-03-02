@@ -8,7 +8,7 @@ import semver
 class SampleProject(ConanFile):
     name = "sample_project"
     url = ""
-    author: "cgg"
+    author = "cgg"
     copyright = "Intern"
     description = ""
     homepage = ""

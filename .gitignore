@@ -44,3 +44,6 @@ venv
 CMakeUserPresets.json
 
 *.bak
+
+# Rope
+.ropeproject/
