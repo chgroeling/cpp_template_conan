@@ -1,7 +1,6 @@
 #pragma once
 
 #include "sample_lib/result.h"
-#include "sample_lib/types.h"
 #include <memory>
 
 namespace spdlog {
