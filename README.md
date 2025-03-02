@@ -13,13 +13,14 @@ This project is a template for a C++ project using Conan for dependency manageme
 1. **Prepare Conan environment using the provided profiles**
    ```sh
    conan profile detect
-   conan install . --pr=./profiles/<insert-profile> --output-folder=build --build=missing
+   conan install . --output-folder=build --build=missing
    ```
+   
+   - prepared profiles for different machines and compilers are located under ./profiles
 
 2. **Build the project**
    ```sh
-   cmake -B build
-   cmake --build build
+   conan build .
    ```
 
 3. **Run the application**
