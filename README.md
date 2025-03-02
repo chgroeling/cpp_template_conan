@@ -13,10 +13,10 @@ This project is a template for a C++ project using Conan for dependency manageme
 1. **Prepare Conan environment using the provided profiles**
    ```sh
    conan profile detect
-   conan install . --output-folder=build --build=missing
+   conan install . --build=missing
    ```
    
-   - prepared profiles for different machines and compilers are located under ./profiles
+   - Prepared profiles for different machines and compilers are located under `./profiles`
 
 2. **Build the project**
    ```sh
@@ -24,8 +24,10 @@ This project is a template for a C++ project using Conan for dependency manageme
    ```
 
 3. **Run the application**
+   
+   This depends on the output folder and the build type.
    ```sh
-   ./build/main
+   ./build/Release/sample_app
    ```
 
 ## Project Structure
