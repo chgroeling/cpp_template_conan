@@ -1,4 +1,1 @@
-# Setup remote and install conan
---index-url https://adeartifactory1.de.festo.net/artifactory/api/pypi/pypi-prod/simple
 conan
-semver

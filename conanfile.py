@@ -2,7 +2,6 @@ import os
 import json
 from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout, CMakeDeps
-import semver
 
 
 class SampleProject(ConanFile):
